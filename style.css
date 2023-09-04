@@ -39,29 +39,21 @@ img {
   width: 70vw;
   min-height: 60vh;
 }
-.column__1 {
+.column__1, .column__2, .column__3 {
   flex-basis: 33.3%;
-  background-color: hsl(31, 77%, 52%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.column__1 {
+  background-color: hsl(31, 77%, 52%);
 }
 .column__2 {
-  flex-basis: 33.3%;
   background-color: hsl(184, 100%, 22%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .column__3 {
-  flex-basis: 33.3%;
   background-color: hsl(179, 100%, 13%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .car__icon {
@@ -141,13 +133,7 @@ img {
     flex-direction: column;
     width: 90%;
   }
-  .column__1 {
-    gap: 2vh;
-  }
-  .column__2 {
-    gap: 2vh;
-  }
-  .column__3 {
+  .column__1, .column__2, .column__3 {
     gap: 2vh;
   }
   .column__information {

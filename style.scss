@@ -41,32 +41,26 @@ img {
  min-height: 60vh;
  // background-color: green;
 
- &__1 {
+ &__1,
+ &__2,
+ &__3 {
   flex-basis: 33.3%;
-  background-color: hsl(31, 77%, 52%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ }
+
+ &__1 {
+  background-color: hsl(31, 77%, 52%);
  }
 
  &__2 {
-  flex-basis: 33.3%;
   background-color: hsl(184, 100%, 22%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
  }
 
  &__3 {
-  flex-basis: 33.3%;
   background-color: hsl(179, 100%, 13%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
  }
 }
 
@@ -149,14 +143,8 @@ img {
   flex-direction: column;
   width: 90%;
 
-  &__1 {
-   gap: 2vh;
-  }
-
-  &__2 {
-   gap: 2vh;
-  }
-
+  &__1,
+  &__2,
   &__3 {
    gap: 2vh;
   }
